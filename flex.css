@@ -1,0 +1,200 @@
+
+body {
+    margin: 0;
+    background-color: #240b36;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#c31432, #240b36);
+    width: 100%;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 20px;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+header h1 {
+    color: white;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+#navigation {
+    margin-top: 20px;
+}
+
+#navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+#navigation ul li {
+    margin: 0 15px;
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+#navigation ul li:hover {
+    color: #c31432;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+
+#content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+#main-content {
+    flex: 0 1 60%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#main-content h2, #main-content h3, #main-content h4, #main-content p {
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+
+#sidebar {
+    flex: 0 1 35%;
+    padding: 20px;
+    background: linear-gradient(#c31432, #240b36);
+    border-radius: 15px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+
+#sidebar h3, #sidebar h4, #sidebar p, #sidebar ul {
+    color: whitesmoke;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+#Spidey, #TV, #Origin, #movie, #Summary {
+    margin-bottom: 40px;
+}
+
+
+#Origin {
+    background: linear-gradient(#c31432, #240b36);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#movie ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: linear-gradient(#42275a, #734b6d);
+    text-align: center;
+    border-radius: 15px;
+    margin: 50px 20px;
+}
+
+footer p {
+    flex: 1;
+    margin: 10px;
+    color: white;
+}
+
+#socials {
+    margin: 20px 0;
+}
+
+#socials a {
+    margin: 0 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#socials a:hover {
+    background-color: #42275a;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer a:hover {
+    background-color: white;
+    color: #240b36;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 40px auto;
+}
+
+.gallery img {
+    flex: 1 1 calc(50% - 20px);
+    margin: 10px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    #main-content, #sidebar {
+        flex: 100%;
+    }
+}

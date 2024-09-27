@@ -1,0 +1,228 @@
+/*body styling*/
+body {
+    margin: 0;
+    background-color: #240b36;
+}                       
+
+/* header styling */
+header {
+    text-align: center;
+    background: linear-gradient(#c31432, #240b36);
+    width: 100%;
+    top: 0;
+    padding-top: 20px;
+    position: sticky;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+header img{
+    width: 55%;
+    height: 75%;
+    position: absolute;
+    top: 0%;
+    right: 64%;
+}
+
+/* Header text (h1) styling */
+header h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+main{
+    margin-top: 5%;
+}
+/*section styling */
+#navigation ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    justify-content: center;
+}
+
+#navigation ul li{
+    margin: 20px;
+    color: white;
+    font-weight: lighter;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+}
+
+#navigation ul li:hover{
+    background-color: whitesmoke;
+    color: white;
+    border-radius: 50px;
+    text-decoration: wavy;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2, h3, h4,p,li{
+    color: whitesmoke;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#Spidey{
+    text-align: center;
+    padding: 50px;
+}
+
+#spidey{
+    text-align: center;
+    padding: 50px;
+}
+
+#gallery{
+    text-align: center;
+    padding: 50px;
+}
+
+#TV{
+    background: linear-gradient(#c31432, #240b36);
+    padding: 10px;
+    border-radius: 20%;
+}
+
+#movie{
+    background:linear-gradient(#c31432, #240b36);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 35%;
+}
+
+#movie ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#Summary{
+    background:linear-gradient(#c31432, #240b36);
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 30%;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+#Origin{
+    background: linear-gradient(#c31432, #240b36);
+    margin-top: 110px;
+    border-radius: 10%;
+    padding: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+}
+
+
+/*footer design*/
+footer{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: linear-gradient(#42275a,#734b6d);
+    text-align: center;
+    border-radius: 20%;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#socials{
+    margin-bottom: 20px;
+}
+
+#socials a{
+    margin: 0 25px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#socials :hover{
+    background-color: #42275a;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+footer a{
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer a:hover{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#content-wrapper{
+    width: 100%;
+    overflow: auto;
+}
+
+#main-content{
+    width: 45%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+#sidebar{
+    width: 40%;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 15%;
+}
+
+#toby, #andrew, #tom{
+    text-align: center;
+    padding: 20px;
+}
+
+#tom ul li{
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+}
+
+#andrew ul li{
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+}
+
+#toby ul li{
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+.gallery{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.gallery img{
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+gallery::after {
+    content: "";
+    display: block;
+    clear: both;
+}
